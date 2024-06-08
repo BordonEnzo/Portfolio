@@ -1,0 +1,225 @@
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(images/fondo.jpg);
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    max-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+header{
+height: 145px;
+width: 100%;
+background-color: orange;
+}
+.navbar{
+    position: relative;
+    height: 145px;
+    width: 100%;
+    background-color: #000;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    border-radius: 20px;
+    
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
+}
+.menu{
+    float: right;
+    width: 410px;
+    height: 40px;
+    background-color: #000;
+    display: flex;
+    position: relative;
+    right: 20px;
+    bottom: 50px;
+    
+
+}
+.menu ul li{
+    
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-left: 5px;
+    float: right;
+    list-style: none;
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: large;
+    
+ 
+} 
+main{
+
+min-height: 100vh;
+width: 100%;
+margin-bottom: 700px;
+}
+section{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    margin-bottom: 720px;
+}
+.articulo{
+    width: 70%;
+    height: 200px;
+    
+}
+
+.titulos{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 50px;
+
+}
+
+.info{
+    
+    text-align: center;
+    padding: 20px;
+    max-width: 700px;
+    position: relative; 
+    left: 300px;
+    
+    
+    
+}
+
+.certificaciones{
+    padding-top: 100px;
+    width: 30%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2,200px 200px 200px 200px);
+    
+}
+
+.certif-1{
+    background-color: aqua;
+    margin: 10px;
+    background-image: url(images/certf-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.certif-2{
+    background-color: blueviolet;
+    margin: 10px;
+    background-image: url(images/certf-2.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.certif-3{
+    background-color: brown;
+    margin: 10px;
+    background-image: url(images/certf-3.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.certif-4{
+    background-color: chartreuse;
+    margin: 10px;
+    background-image: url(images/certf-4.jpg);
+    background-size: cover;
+    background-position: center;    
+}
+
+.projects{
+
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: repeat(2,300px 300px 300px 300px 300px 300px);
+
+}
+
+.project-1{
+    background-color: dimgrey;
+    margin: 10px;
+    
+    background-size: cover;
+    background-position: center;
+}
+.project-2{
+    background-color: dimgrey;
+    margin: 10px;
+    
+    background-size: cover;
+    background-position: center;
+
+}
+.project-3{
+    background-color: dimgrey;
+    margin: 10px;
+    
+    background-size: cover;
+    background-position: center;
+    
+}
+.project-4{
+    background-color: dimgrey;
+    margin: 10px;
+    
+    background-size: cover;
+    background-position: center;    
+}
+
+.project-5{
+    background-color: dimgrey;
+    margin: 10px;
+    
+    background-size: cover;
+    background-position: center;    
+}
+
+.project-6{
+    background-color: dimgrey;
+    margin: 10px;
+    
+    background-size: cover;
+    background-position: center;    
+}
+
+
+
+
+
+footer{
+    
+    margin-top: 20px;
+
+    
+}
+
+.info-foot{
+
+    margin-top: 20px;
+
+}   
+
