@@ -1,5 +1,3 @@
-
-
 *{
     padding: 0px;
     margin: 0px;
@@ -9,217 +7,194 @@
 body{
     background-image: url(images/fondo.jpg);
     color: #fff;
-    background-size: cover;
     background-position: center;
-    max-height: 100vh;
-    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;    
+    background-size: cover;
+        
+    
+}
+
+.presentacion{
+    margin-top: 4vh;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+    margin-top: 25vh;
     
+      
+}
+
+.presentacion h2{
+    text-align: center;
+}
+
+.presentacion h3{
+
+    color: rgba(255, 238, 0, 0.795);
+    font-family: cursive;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.presentacion h2{
+
+    font-size: 4rem;
+}
+
+.btn{
+    margin-top: 2vh;
+    background-color: darkgray;
+    color: #080a0a;
     
 }
 
-header{
-height: 145px;
-width: 100%;
-background-color: orange;
-}
-.navbar{
-    position: relative;
-    height: 145px;
-    width: 100%;
-    background-color: #000;
-}
-.logo{
-    width: 100px;
-    height: 100px;
-    background-color: #000;
-    position: relative;
-    left: 20px;
-    top: 20px;
-    border-radius: 20px;
+.about {
     
-}
-
-.logo img {
-    width: 80px;
-    height: 80px;
-}
-.menu{
-    float: right;
-    width: 410px;
-    height: 40px;
-    background-color: #000;
-    display: flex;
-    position: relative;
-    right: 20px;
-    bottom: 50px;
     
 
-}
-.menu ul li{
+    height: 10vh;
+    width: 70vw;
+    margin-left: 15vw;
+    margin-top: 10vh;
     
-    margin-right: 10px;
-    margin-top: 15px;
-    margin-left: 5px;
-    float: right;
+   
+}
+
+.about h1{
+
+    
+    text-align: left;
+    font-size: 3rem;
+}
+
+.about p {
+
+    margin-top: 1vh;
+    font-size: 2rem;
+}
+
+
+
+
+.tecnologies{
+    height: 10vh;
+    width: 70vw;
+    margin-left: 15vw;
+    margin-top: 42vh;
+}
+
+.tecnologies h1{
+    font-size: 3rem;
+}
+
+.icon{
+    margin-top: 1vh;
+    width: 8vw;
+}
+
+.icon2{
+    width: 3vw;
+    margin: 1vh;
+}
+
+ul li{
+
     list-style: none;
-    
-}
-.menu ul li a{
-    text-decoration: none;
-    color: #fff;
-    font-size: large;
-    
- 
-} 
-main{
-
-min-height: 100vh;
-width: 100%;
-margin-bottom: 700px;
-}
-section{
-    width: 100%;
-    height: 100px;
-    display: flex;
-    margin-bottom: 720px;
-}
-.articulo{
-    width: 70%;
-    height: 200px;
-    
-}
-
-.titulos{
-    padding-top: 20px;
-    text-align: center;
-    font-size: 50px;
 
 }
 
-.info{
-    
-    text-align: center;
-    padding: 20px;
-    max-width: 700px;
-    position: relative; 
-    left: 300px;
-    
-    
+
+
+.proyectos{
+
+    height: 10vh;
+    width: 70vw;
+    margin-left: 15vw;
+    margin-top: 21vh;
     
 }
 
-.certificaciones{
-    padding-top: 100px;
-    width: 30%;
-    height: 500px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2,200px 200px 200px 200px);
-    
+.proyectos h1{
+    font-size: 3rem;
+}
+.box{
+    margin-top: 5vh;
+    margin-bottom: 1vh;
+    position: relative;
+
 }
 
-.certif-1{
-    background-color: aqua;
-    margin: 10px;
-    background-image: url(images/certf-1.jpg);
-    background-size: cover;
+.box h4{
+    margin-bottom: 2vh;
+    font-size: 2.5vh;
+}
+
+.box::before {
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 120%;
+    background-color: red;
+    left:-15px;
+    top: 10px;
+}
+
+.box::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+    left:-25px;
+    top: 7px;
+}
+
+.project{
+    background-image: url(images/website_cover.png) ;
     background-position: center;
-}
-.certif-2{
-    background-color: blueviolet;
-    margin: 10px;
-    background-image: url(images/certf-2.jpg);
     background-size: cover;
+    width: 70vw;
+    height: 50vh;
+    
+
+}
+
+.project2{
+    background-image: url(images/portfolio_cover.png) ;
     background-position: center;
-
-}
-.certif-3{
-    background-color: brown;
-    margin: 10px;
-    background-image: url(images/certf-3.jpg);
     background-size: cover;
-    background-position: center;
-    
-}
-.certif-4{
-    background-color: chartreuse;
-    margin: 10px;
-    background-image: url(images/certf-4.jpg);
-    background-size: cover;
-    background-position: center;    
-}
-
-.projects{
-
-   display: grid;
-   grid-template-columns: repeat(3, 1fr);
-   grid-template-rows: repeat(2,300px 300px 300px 300px 300px 300px);
+    width: 70vw;
+    height: 50vh;
 
 }
-
-.project-1{
-    background-color: dimgrey;
-    margin: 10px;
-    
-    background-size: cover;
-    background-position: center;
-}
-.project-2{
-    background-color: dimgrey;
-    margin: 10px;
-    
-    background-size: cover;
-    background-position: center;
-
-}
-.project-3{
-    background-color: dimgrey;
-    margin: 10px;
-    
-    background-size: cover;
-    background-position: center;
-    
-}
-.project-4{
-    background-color: dimgrey;
-    margin: 10px;
-    
-    background-size: cover;
-    background-position: center;    
-}
-
-.project-5{
-    background-color: dimgrey;
-    margin: 10px;
-    
-    background-size: cover;
-    background-position: center;    
-}
-
-.project-6{
-    background-color: dimgrey;
-    margin: 10px;
-    
-    background-size: cover;
-    background-position: center;    
-}
-
-
-
-
 
 footer{
-    
-    margin-top: 20px;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    height: 10vh;
+    display: flex;
     
+    margin-top: 135vh;
+    margin-left: 15vw;
+    background-color: gray;
 }
 
-.info-foot{
+footer h1{
+    margin-top: 2vh;
+    margin-bottom: 0.5vh;
+    padding-left: 1vh;
+    font-size: 1rem;
+    text-align: center;
+}
 
-    margin-top: 20px;
+footer ul li{
+    float: left;
 
-}   
+}
 
