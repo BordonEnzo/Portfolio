@@ -15,6 +15,66 @@ body{
     
 }
 
+.logo{
+
+    width:6rem;
+    height: 6rem ;
+    background-image: url(images/code.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: 1vw;
+    
+    
+}
+
+nav{
+    background-color: gray;
+    opacity: 0.5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+
+}
+
+.menubtn:hover{
+    background-color: black;
+}
+
+
+
+
+.menu ul{
+
+    display: flex;
+    justify-content: flex-end;
+    
+        
+    
+
+}
+
+.menu ul li{
+
+    margin-right: 2vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.menu ul li a {
+
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
 .presentacion{
     margin-top: 4vh;
     display: flex;
@@ -48,6 +108,10 @@ body{
     background-color: darkgray;
     color: #080a0a;
     
+}
+
+.btn:hover{
+    background-color: grey;
 }
 
 .about {
@@ -91,12 +155,43 @@ body{
 
 .icon{
     margin-top: 1vh;
-    width: 8vw;
+    width: 5rem;
+}
+
+.icon:hover{
+    height: 8rem ;
+    width: 8rem;
 }
 
 .icon2{
-    width: 3vw;
-    margin: 1vh;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    margin-left: .5vw;
+    width: 3rem;
+}
+
+.icon2:hover{
+    height:5rem;
+    width:5rem;
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+}
+
+.icon3{
+    margin-top: 1vh;
+    width: 3rem;
+    height: 3rem;
+    margin-right: .5rem;
+}
+
+.icon3:hover{
+
+    height:5rem;
+    width:5rem;
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+
+
 }
 
 ul li{
@@ -174,16 +269,25 @@ ul li{
 footer{
 
     display: flex;
-    justify-content: center;
     align-items: center;
-    width: 70vw;
-    height: 10vh;
+    justify-content: space-between;
+    width: 100vw;
+    height: 14vh;
     display: flex;
-    
     margin-top: 135vh;
-    margin-left: 15vw;
     background-color: gray;
+    opacity: .5;
 }
+
+.footer-info{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 3vw;
+    
+}
+
+
 
 footer h1{
     margin-top: 2vh;
