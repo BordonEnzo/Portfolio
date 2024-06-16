@@ -17,8 +17,8 @@ body{
 
 .logo{
 
-    width:6rem;
-    height: 6rem ;
+    width:3rem;
+    height: 3rem ;
     background-image: url(images/code.png);
     background-size: cover;
     background-position: center;
@@ -42,8 +42,12 @@ nav{
 
 }
 
+
+
 .menubtn:hover{
     background-color: black;
+    border-radius: 5px;
+    
 }
 
 
@@ -107,6 +111,8 @@ nav{
     margin-top: 2vh;
     background-color: darkgray;
     color: #080a0a;
+    width: 7rem;
+    border-radius: 10px;
     
 }
 
@@ -247,24 +253,98 @@ ul li{
     top: 7px;
 }
 
-.project{
-    background-image: url(images/website_cover.png) ;
+.proj{
+    margin-top: 2rem;
+    
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    overflow: scroll;
+    justify-content: space-around;
+    width: 70%;
+    margin-left: 15%;
+
+      
+    
+}
+
+.proj::-webkit-scrollbar{
+    width: 0;
+    
+}
+
+.proj::-webkit-scrollbar-thumb{
+    background-color: #080a0a;
+    
+    
+}
+
+
+.proyecto1,.proyecto2,.proyecto3,.proyecto4{
+    
+    width: 40rem;
+    height: 30rem;
+    background-color: #2d2d33  ;
+    margin:2rem 2rem 2rem 2rem;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+.foto1, .foto2, .foto3, .foto4{
+
+    width: 20rem;
+    height: 20rem;
+    margin: 2rem 2rem 2rem 2rem;
+    background-color: gray;
+    border-radius: 10%;
+} 
+
+.foto1{
+    background-image: url(images/portfolio.png);
     background-position: center;
     background-size: cover;
-    width: 70vw;
-    height: 50vh;
+    
+}
+
+.foto2{
+    background-image: url(images/website.png);
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+
+.foto3{
+    background-image: url(images/en_progreso.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.foto4{
+    background-image: url(images/en_progreso.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.descripcion1,.descripcion2,.descripcion3,.descripcion4{
+
+    
+    width: 20rem;
+    height: 3rem;
+    margin: 2rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 
-}
-
-.project2{
-    background-image: url(images/portfolio_cover.png) ;
-    background-position: center;
-    background-size: cover;
-    width: 70vw;
-    height: 50vh;
 
 }
+
+
 
 footer{
 
@@ -274,7 +354,7 @@ footer{
     width: 100vw;
     height: 14vh;
     display: flex;
-    margin-top: 135vh;
+    margin-top: 30vh;
     background-color: gray;
     opacity: .5;
 }
@@ -283,7 +363,7 @@ footer{
     width: 100vw;
     display: flex;
     justify-content: space-between;
-    margin-right: 3vw;
+    margin-right: 1vw;
     
 }
 
